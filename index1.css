@@ -1,0 +1,24 @@
+/* Features section styling */
+.features {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.feature {
+    margin-bottom: 40px;
+}
+
+.feature img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.feature h3 {
+    font-size: 1.2em;
+}
+
+.feature p {
+    font-size: 1em;
+}

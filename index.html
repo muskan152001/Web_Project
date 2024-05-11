@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Weather App</h1>
+            <div class="logo">
+                <img src="/src/weather.png">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                
+                <button onclick="showCountryList()">Show Countries</button>
+        <select id="countryList" style="display: none;"></select>
+            </div>
+        </div>
+    </header>
+
+     
+    <section class="hero">
+        <div class="container">
+            <h2>Stay Ahead of the Weather</h2>
+            <p>Get accurate weather forecasts anytime, anywhere.</p>
+            <button onclick="downloadApp()">Download Now</button>
+            <button onclick="exploreWeather()">Check Weather Now</button>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2>Key Features</h2>
+            <div class="feature">
+                <img src="src/images (1).jpeg" alt="Feature 1">
+                <h3>Real-Time Updates</h3>
+                <p>Receive up-to-the-minute weather updates.</p>
+            </div>
+            <div class="feature">
+                <img src="src\images.jpeg" alt="Feature 2">
+                <h3>Customizable Alerts</h3>
+                <p>Set personalized alerts for your favorite locations.</p>
+            </div>
+            <section class="how-it-works">
+                <div class="container">
+                    <h2>How It Works</h2>
+                    <div class="step">
+                        <img src="/src/infographics.png" alt="Step 1">
+                        <h3>Step 1</h3>
+                        <p>Enter your location to get started.</p>
+                    </div>
+                    <div class="step">
+                        <img src="/src/infographics3.png" alt="Step 2">
+                        <h3>Step 2</h3>
+                        <p>View the current weather conditions.</p>
+                    </div>
+                    <div class="step">
+                        <img src="/src/infographics (1).png" alt="Step 3">
+                        <h3>Step 3</h3>
+                        <p>Get detailed forecasts for the upcoming days.</p>
+                    </div>
+                    <!-- Add more steps here -->
+                </div>
+            </section>
+            
+            <section class="testimonials">
+                <div class="container">
+                    <h2>What Our Users Say</h2>
+                    <div class="testimonial">
+                        <img src="/src/free-user-icon-3296-thumb.png" alt="User 1">
+                        <p>"This weather app is amazing! It's accurate and easy to use. Highly recommended!"</p>
+                        <cite>- Hareema, karachi</cite>
+                    </div>
+                    <div class="testimonial">
+                        <img src="/src/free-user-icon-3296-thumb.png" alt="User 2">
+                        <p>"I've tried many weather apps, but this one stands out. The interface is intuitive and the forecasts are reliable."</p>
+                        <cite>- azad, brisbane</cite>
+                    </div>
+                    <!-- Add more testimonials here -->
+                </div>
+            </section>
+            <section class="download">
+                <div class="container">
+                    <h2>Download Our App</h2>
+                    <button id="downloadButton">Download Now</button>
+                    <div class="platforms">
+                        <a href="#" class="app-store-badge"><img src="/src/app-store.png" alt="App Store"></a> 
+                        <a href="#" class="play-store-badge"><img src="/src/game.png" alt="Play Store"></a>
+                    </div>
+                </div>
+            </section>
+            <section class="newsletter">
+                <div class="container">
+                    <h2>Subscribe to Our Newsletter</h2>
+                    <p>Get weather updates, tips, and promotions straight to your inbox.</p>
+                    <form id="newsletterForm">
+                        <input type="email" id="emailInput" placeholder="Enter your email address" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                    <p class="incentive">Sign up now and receive a 10% discount on your next forecast!</p>
+                </div>
+            </section>
+        </div>
+    </section>
+    <section class="blog">
+        <h2>Latest Blog Posts</h2>
+        <div class="blog-posts">
+            <article class="blog-post">
+                <h3>Weather Blog</h3>
+                <p>The latest news and articles relating to all things weather. From the best times to visit countries and climate data to travel advice and reccomendations
+                </p>
+                <a href="https://blog.worldweatheronline.com/">Read More</a>
+            </article>
+            <article class="blog-post">
+                <h3> OpenWeather</h3>
+                <p>Introducing The OpenWeather Meteorological Service</p>
+                <a href="https://openweather.co.uk/blog">Read More</a>
+            </article>
+            <!-- Add more blog posts here -->
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="contact-info">
+                <h3>Contact Us</h3>
+                <p>Email: info@example.com</p>
+                <p>Phone: +1234567890</p>
+            </div>
+            <div class="social-media">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="#"><img src="/src/facebook.png" alt="Facebook"></a></li>
+                    <li><a href="#"><img src="src/twitter.png" alt="Twitter"></a></li>
+                    <li><a href="#"><img src="src/instagram.png" alt="Instagram"></a></li>
+                </ul>
+            </div>
+            <div class="legal-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="index.js">
+
+    </script>
+
+</body>
+</html>
