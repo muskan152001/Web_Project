@@ -7,4 +7,4 @@ document.getElementById("signupForm").addEventListener("submit", function(event)
     console.log("Signup details:", name, email, password);
     // Example: Display success message
     document.getElementById("signupSuccess").textContent = "Sign up successful!";
-});
+    window.location.href = "login.html";});
